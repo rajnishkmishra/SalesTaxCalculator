@@ -1,0 +1,11 @@
+C:\Users\lenovo\source\repos\SalesTax\SalesTax\bin\Debug\netcoreapp2.1\SalesTax.deps.json
+C:\Users\lenovo\source\repos\SalesTax\SalesTax\bin\Debug\netcoreapp2.1\SalesTax.runtimeconfig.json
+C:\Users\lenovo\source\repos\SalesTax\SalesTax\bin\Debug\netcoreapp2.1\SalesTax.runtimeconfig.dev.json
+C:\Users\lenovo\source\repos\SalesTax\SalesTax\bin\Debug\netcoreapp2.1\SalesTax.dll
+C:\Users\lenovo\source\repos\SalesTax\SalesTax\bin\Debug\netcoreapp2.1\SalesTax.pdb
+C:\Users\lenovo\source\repos\SalesTax\SalesTax\obj\Debug\netcoreapp2.1\SalesTax.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\SalesTax\SalesTax\obj\Debug\netcoreapp2.1\SalesTax.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\SalesTax\SalesTax\obj\Debug\netcoreapp2.1\SalesTax.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\SalesTax\SalesTax\obj\Debug\netcoreapp2.1\SalesTax.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\SalesTax\SalesTax\obj\Debug\netcoreapp2.1\SalesTax.dll
+C:\Users\lenovo\source\repos\SalesTax\SalesTax\obj\Debug\netcoreapp2.1\SalesTax.pdb
