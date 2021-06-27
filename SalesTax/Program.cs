@@ -14,13 +14,13 @@ namespace SalesTax
 	            Console.WriteLine("****************************************");
 	            if(result.message == Constants.Error)
 	            {
-	            	Console.WriteLine(result.Data);
+	            	Console.WriteLine("ERROR OCCURED");
 	            }
 	            else
 	            {
 	            	foreach(var item in result.Data.Items)
 	            	{
-	            		Console.WriteLine("{0}: {1}",item.ProductDescription,String.Format("{0:0.00}",item.TotalPrice));
+	            		Console.WriteLine(item);
 	            	}
 	            	Console.WriteLine(Constants.SalesTaxes+String.Format("{0:0.00}",result.Data.SalesTax));
 					Console.WriteLine(Constants.Total+String.Format("{0:0.00}",result.Data.TotalPrice));

@@ -5783,11 +5783,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lenovo\\source\\repos\\SalesTax\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\SalesTaxCalculator\\SalesTaxCalculator\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Users\\lenovo\\source\\repos\\SalesTax\\Tests\\Tests.csproj",
+      "projectPath": "C:\\Users\\lenovo\\Desktop\\SalesTaxCalculator\\SalesTaxCalculator\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lenovo\\source\\repos\\SalesTax\\Tests\\obj\\",
+      "outputPath": "C:\\Users\\lenovo\\Desktop\\SalesTaxCalculator\\SalesTaxCalculator\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5806,8 +5806,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\lenovo\\source\\repos\\SalesTax\\SalesTax\\SalesTax.csproj": {
-              "projectPath": "C:\\Users\\lenovo\\source\\repos\\SalesTax\\SalesTax\\SalesTax.csproj"
+            "C:\\Users\\lenovo\\Desktop\\SalesTaxCalculator\\SalesTaxCalculator\\SalesTax\\SalesTax.csproj": {
+              "projectPath": "C:\\Users\\lenovo\\Desktop\\SalesTaxCalculator\\SalesTaxCalculator\\SalesTax\\SalesTax.csproj"
             }
           }
         }

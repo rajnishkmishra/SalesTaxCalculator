@@ -32,12 +32,9 @@ namespace Tests
             
             //Assert
             Assert.AreEqual(result.message, Constants.Success);
-            Assert.AreEqual(result.Data.Items[0].ProductDescription, "1 book");
-            Assert.AreEqual(result.Data.Items[0].TotalPrice, 12.49);
-            Assert.AreEqual(result.Data.Items[1].ProductDescription, "1 music CD");
-            Assert.AreEqual(result.Data.Items[1].TotalPrice, 16.49);
-            Assert.AreEqual(result.Data.Items[2].ProductDescription, "1 chocolate bar");
-            Assert.AreEqual(result.Data.Items[2].TotalPrice, 0.85);
+            Assert.AreEqual(result.Data.Items[0], "1 book: 12.49");
+            Assert.AreEqual(result.Data.Items[1], "1 music CD: 16.49");
+            Assert.AreEqual(result.Data.Items[2], "1 chocolate bar: 0.85");
             Assert.AreEqual(result.Data.SalesTax, 1.50);
             Assert.AreEqual(result.Data.TotalPrice, 29.83);
         } 
@@ -58,10 +55,8 @@ namespace Tests
             
             //Assert
             Assert.AreEqual(result.message, Constants.Success);
-            Assert.AreEqual(result.Data.Items[0].ProductDescription, "1 imported box of chocolates");
-            Assert.AreEqual(result.Data.Items[0].TotalPrice, 10.50);
-            Assert.AreEqual(result.Data.Items[1].ProductDescription, "1 imported bottle of perfume");
-            Assert.AreEqual(result.Data.Items[1].TotalPrice, 54.65);
+            Assert.AreEqual(result.Data.Items[0], "1 imported box of chocolates: 10.50");
+            Assert.AreEqual(result.Data.Items[1], "1 imported bottle of perfume: 54.65");
             Assert.AreEqual(result.Data.SalesTax, 7.65);
             Assert.AreEqual(result.Data.TotalPrice, 65.15);
         }
@@ -84,14 +79,10 @@ namespace Tests
             
             //Assert
             Assert.AreEqual(result.message,Constants.Success);
-            Assert.AreEqual(result.Data.Items[0].ProductDescription, "1 imported bottle of perfume");
-            Assert.AreEqual(result.Data.Items[0].TotalPrice,32.19);
-            Assert.AreEqual(result.Data.Items[1].ProductDescription, "1 bottle of perfume");
-            Assert.AreEqual(result.Data.Items[1].TotalPrice,20.89);
-            Assert.AreEqual(result.Data.Items[2].ProductDescription, "1 packet of haedache pills");
-            Assert.AreEqual(result.Data.Items[2].TotalPrice, 9.75);
-            Assert.AreEqual(result.Data.Items[3].ProductDescription, "1 imported box of chocolates");
-            Assert.AreEqual(result.Data.Items[3].TotalPrice, 11.85);
+            Assert.AreEqual(result.Data.Items[0], "1 imported bottle of perfume: 32.19");
+            Assert.AreEqual(result.Data.Items[1], "1 bottle of perfume: 20.89");
+            Assert.AreEqual(result.Data.Items[2], "1 packet of haedache pills: 9.75");
+            Assert.AreEqual(result.Data.Items[3], "1 imported box of chocolates: 11.85");
             Assert.AreEqual(result.Data.SalesTax, 6.70);
             Assert.AreEqual(result.Data.TotalPrice, 74.68);
         }

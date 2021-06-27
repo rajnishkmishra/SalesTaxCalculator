@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lenovo\\source\\repos\\SalesTax\\SalesTax\\SalesTax.csproj",
+      "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\SalesTaxCalculator\\SalesTaxCalculator\\SalesTax\\SalesTax.csproj",
       "projectName": "SalesTax",
-      "projectPath": "C:\\Users\\lenovo\\source\\repos\\SalesTax\\SalesTax\\SalesTax.csproj",
+      "projectPath": "C:\\Users\\lenovo\\Desktop\\SalesTaxCalculator\\SalesTaxCalculator\\SalesTax\\SalesTax.csproj",
       "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lenovo\\source\\repos\\SalesTax\\SalesTax\\obj\\",
+      "outputPath": "C:\\Users\\lenovo\\Desktop\\SalesTaxCalculator\\SalesTaxCalculator\\SalesTax\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
