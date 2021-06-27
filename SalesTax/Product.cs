@@ -70,7 +70,7 @@ namespace SalesTax
 
     	private double GetTotalPrice(BasicTax basicTax, ImportTax importTax)
     	{
-    		return Math.Round(this.ShelfPrice+basicTax.TaxAmount+importTax.TaxAmount,2);
+    		return Math.Round((this.ShelfPrice+basicTax.TaxAmount+importTax.TaxAmount) * this.Quantity, 2);
     	}
     }
 }
